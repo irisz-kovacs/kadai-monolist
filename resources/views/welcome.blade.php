@@ -13,6 +13,7 @@
     </div>
 @endsection
 
-@section('content')
-    テスト
+@@section('content')
+    @include('items.items')
+    {!! $items->render() !!}
 @endsection
