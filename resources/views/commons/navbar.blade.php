@@ -28,7 +28,9 @@
                             </a>
                             <ul class="dropdown-menu">
                                 <li><a href="{{ route('ranking.want') }}">Want Ranking</a></li>
+                                <li><a href="{{ route('ranking.have') }}">Have Ranking</a></li>
                             </ul>
+                            
                         </li>
 
                         <li class="dropdown">
@@ -36,6 +38,7 @@
                                 <span class="gravatar">
                                     <img src="{{ Gravatar::src(Auth::user()->email, 20) . '&d=mm' }}" alt="" class="img-circle">
                                 </span>
+                                
                                 <span class="gravatar">
                                     <img src="{{ Gravatar::src(Auth::user()->email, 20) . '&d=mm' }}" alt="" class="img-circle">
                                 </span>
